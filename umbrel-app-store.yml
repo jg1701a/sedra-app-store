@@ -1,0 +1,7 @@
+id: "sedra"
+name: "Sedra App Store"
+developer: "jg1701a"
+version: "1.0.0"
+description: "A custom app store for running the Sedra blockchain node on Umbrel."
+website: "https://github.com/jg1701a/sedra-app-store"
+support: "https://github.com/jg1701a/sedra-app-store/issues"

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sedra Node Dashboard</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #log { white-space: pre-wrap; background: #111; color: #0f0; padding: 10px; border-radius: 5px; height: 400px; overflow-y: scroll; }
+  </style>
+</head>
+<body>
+  <h1>Sedra Node Status</h1>
+  <button onclick="fetchLog()">Refresh Logs</button>
+  <div id="log">Click "Refresh Logs" to view output</div>
+
+  <script>
+    function fetchLog() {
+      fetch('/logs')
+        .then(response => response.text())
+        .then(data => { document.getElementById('log').innerText = data; });
+    }
+  </script>
+</body>
+</html>

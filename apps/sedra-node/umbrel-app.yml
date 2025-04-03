@@ -1,0 +1,14 @@
+id: "sedra-node"
+name: "Sedra Node"
+version: "0.1.0"
+releaseNotes: "Initial release of Sedra Node for Umbrel."
+license: "MIT"
+developer: "jg1701a"
+description: "Runs the Sedra blockchain node on your Umbrel server."
+repository: "https://github.com/jg1701a/sedra-app-store"
+support: "https://github.com/jg1701a/sedra-app-store/issues"
+port: 8080
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

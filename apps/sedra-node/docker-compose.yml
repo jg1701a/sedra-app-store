@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  sedra-node:
+    build: .
+    container_name: sedra-node
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    restart: on-failure
+    ports:
+      - "8080:80"
